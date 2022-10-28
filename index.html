@@ -13,21 +13,21 @@
       <h1>My Library</h1>
     </header>
     <div class="modal">
-        <form  id="form">
-          <div class="modal-container">
-                <h2 class="modal-title">Add Book</h2>
-                <input type="text" name="" id="title" required>
-                <label for="title">Title:</label>
-                <input type="text" name="" id="author">
-                <label for="author">Author:</label>
-                <input type="text" name="" id="pages">
-                <label for="pages">Pages:</label>
-                <input type="checkbox" name="" id="read">
-                <label for="read">read:</label>
-                <button class="submit">add</button>
-                <button class="cancel">cancel</button>
-              </div>
-        </form>
+      <form id="form">
+        <div class="modal-container">
+          <h2 class="modal-title">Add Book</h2>
+          <input type="text" name="" id="title" required />
+          <label for="title">Title:</label>
+          <input type="text" name="" id="author" required />
+          <label for="author">Author:</label>
+          <input type="number" min="1" name="" id="pages" value="1" />
+          <label for="pages">Pages:</label>
+          <input type="checkbox" name="" id="read" />
+          <label for="read">read:</label>
+          <button class="submit">add</button>
+          <button class="cancel">cancel</button>
+        </div>
+      </form>
     </div>
     <main>
       <h2>Books</h2>
@@ -46,7 +46,6 @@
           <h4 class="book-pages">604</h4>
           <button class="read">read</button>
           <button class="remove">remove</button>
-        </div>
         </div>
       </div>
     </main>
